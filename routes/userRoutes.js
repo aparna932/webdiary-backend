@@ -1,4 +1,4 @@
-const { register, login, followUser, unfollowUser, addBookmark, removeBookmark, getBookmarks } = require("../controllers/userController");
+const { register, login, followUser, unfollowUser, addBookmark, removeBookmark, getBookmarks } = require("../controllers/UserController");
 const express = require("express");
 const router = express.Router();
 
