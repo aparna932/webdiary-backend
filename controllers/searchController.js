@@ -1,4 +1,4 @@
-const Diary = require("../models/Diary");
+const Diary = require("../models/diary");
 
 exports.searchDiaries = async (req, res) => {
   try {
